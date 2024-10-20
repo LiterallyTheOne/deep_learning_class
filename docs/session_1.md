@@ -20,6 +20,13 @@ But with the help of `tensorflow`, `PyTorch` and `Jax` it can run on top of diff
 
 ## Google Colab
 
+[Google colab](https://colab.research.google.com/) is a free could-based platform that 
+is powered by `jupyter notebook`.
+Every thing that we are going to use in this class is already installed on
+[Google colab](https://colab.research.google.com/).
+But if you like to run the codes in your local device,
+you can install them manually.
+
 ## Load notebook from GitHub to Colab
 
 ## Deep learning Hello World
