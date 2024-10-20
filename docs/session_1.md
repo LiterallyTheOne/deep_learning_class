@@ -2,7 +2,21 @@
 
 ## Tensorflow
 
+`Tensorflow` is an open source library developed by `Google`.
+The main purpose of `Tensorflow` is to give us the power of
+manipulating mathematical expressions on numerical `tensors`.
+Somehow like `NumPy` but with some extra features, like:
+
+* Calculating gradient
+* Can run on `GPU`, `TPU` and `CPU`
+* Computation can be distributed on different machines pretty easily
+* It has an API for other programming languages like `c++` and `Java-script`.
+
 ## Keras
+
+`Keras` is a high level API for building and training **Deep learning** models.
+It was designed to be a stand-alone project.
+But with the help of `tensorflow`, `PyTorch` and `Jax` it can run on top of different hardware.
 
 ## Google Colab
 
@@ -25,8 +39,8 @@ test_images = test_images.astype("float32") / 255
 
 # define our model
 model = keras.Sequential([
-  layers.Dense(512, activation="relu"),
-  layers.Dense(10, activation="softmax")
+    layers.Dense(512, activation="relu"),
+    layers.Dense(10, activation="softmax")
 ])
 
 model.compile(optimizer="rmsprop",
