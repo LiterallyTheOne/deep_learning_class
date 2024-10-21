@@ -20,7 +20,7 @@ But with the help of `tensorflow`, `PyTorch` and `Jax` it can run on top of diff
 
 ## Google Colab
 
-[Google colab](https://colab.research.google.com/) is a free could-based platform that 
+[Google colab](https://colab.research.google.com/) is a free could-based platform that
 is powered by `jupyter notebook`.
 Every thing that we are going to use in this class is already installed on
 [Google colab](https://colab.research.google.com/).
@@ -28,6 +28,14 @@ But if you like to run the codes in your local device,
 you can install them manually.
 
 ## Load notebook from GitHub to Colab
+
+To load a notebook from `GitHub` directly to `Google colab`, first we should press `Ctrl+O` (open notebook). Then in the
+`GitHub` tab, we can copy the address of the repository that contains the notebooks that we want to load. After that, a
+list of notebooks will show up then we can select the one that we wanted. One example is provided below:
+
+![GitHub to Colab](figures/github_to_colab.png)
+
+In this session, I’m using the codes provided in https://github.com/LiterallyTheOne/deep_learning_4021 repository.
 
 ## Deep learning Hello World
 
