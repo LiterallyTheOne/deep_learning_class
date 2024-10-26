@@ -23,4 +23,5 @@
 | [PC Parts Images Dataset (Classification)](https://www.kaggle.com/datasets/asaniczka/pc-parts-images-dataset-classification)                         | 1                      | -                       | عباس یاور              |
 | [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data)                                        | 1                      | train, validation, test | مهدی حافظ آبادی        |
 | [Flowers Multiclass 5 Image Classification](https://www.kaggle.com/datasets/sujaykapadnis/flowers-image-classification)                              | 1                      | train, validation, test | محمد صادق خادمیان      |
+| [ Bone Fracture Multi-Region X-ray Data](https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data/data)                    | 1                      | train, validation, test | امیرمحمد همتیان        |
 
