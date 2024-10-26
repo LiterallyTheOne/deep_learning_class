@@ -22,4 +22,5 @@
 | [Alzheimer's Disease Multiclass Images Dataset](https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented)    | 1                      | -                       | شیرین شجاعیان          |
 | [PC Parts Images Dataset (Classification)](https://www.kaggle.com/datasets/asaniczka/pc-parts-images-dataset-classification)                         | 1                      | -                       | عباس یاور              |
 | [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data)                                        | 1                      | train, validation, test | مهدی حافظ آبادی        |
+| [Flowers Multiclass 5 Image Classification](https://www.kaggle.com/datasets/sujaykapadnis/flowers-image-classification)                              | 1                      | train, validation, test | محمد صادق خادمیان      |
 
