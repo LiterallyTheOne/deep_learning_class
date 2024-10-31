@@ -23,12 +23,9 @@ print("Path to dataset files:", path)
 It would download the dataset and put it in `.cache` directory.
 
 
-
-
 ## `image_dataset_from_directory`
 
-[`image_dataset_from_directory`](https://keras.io/api/data_loading/image/) is a built-in function in
-`Keras`, we are using it to load our dataset.
+[`image_dataset_from_directory`](https://keras.io/api/data_loading/image/) is a built-in function in `Keras`, we are using it to load our dataset.
 Each dataset have a different structure, 
 but mostly they follow the following strcuture:
 
