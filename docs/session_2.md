@@ -67,6 +67,16 @@ keras.utils.image_dataset_from_directory(
 )
 ```
 
+```{note}
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+```
+
+## `tf.data.Dataset`
+
+```{note}
+https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+```
+
 ## Load dateset in train, validation and test format
 
 ## Prepare data to feed it to model
