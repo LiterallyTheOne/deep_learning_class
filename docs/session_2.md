@@ -27,7 +27,7 @@ It would download the dataset and put it in `.cache` directory.
 
 [`image_dataset_from_directory`](https://keras.io/api/data_loading/image/) is a built-in function in `Keras`, we are using it to load our dataset.
 Each dataset have a different structure, 
-but mostly they follow the following strcuture:
+but mostly, they follow the following strcuture:
 
 ```text
 main_directory/
@@ -68,10 +68,24 @@ keras.utils.image_dataset_from_directory(
 ```
 
 ```{note}
-https://www.tensorflow.org/api_docs/python/tf/data/Dataset
+https://keras.io/api/data_loading/image/
 ```
 
 ## `tf.data.Dataset`
+
+It is designed to have so much efficency when working with data,
+specially when you are dealing with a large-scale dataset. 
+The output of `image_dataset_from_directory` would be a
+`tensorflow dataset`.  
+So every function that we can use on `dataset` is apply able
+to the `dataset` that we get from `image_dataset_from_directory`.
+Some important functions are:
+
+* `as_numpy_iterator()`
+* `map(map_func, num_parallel_calls=None, deterministic=None, name=None)`
+* `unbatch()`
+* `batch()`
+* `rebatch()`
 
 ```{note}
 https://www.tensorflow.org/api_docs/python/tf/data/Dataset
