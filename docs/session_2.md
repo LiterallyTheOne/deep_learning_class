@@ -86,16 +86,52 @@ Some important functions are:
 * `unbatch()`
 * `batch()`
 * `rebatch()`
+* `take()`
 
 ```{note}
 https://www.tensorflow.org/api_docs/python/tf/data/Dataset
 ```
 
-## Load dateset in train, validation and test format
+## train dataset
 
-## Prepare data to feed it to model
+This is the dataset we are using to train our model with.
+This dataset is usually large.
 
-## Fit the model with train and validation
+## validation dataset
 
-## Test the model with test
+This is the dataset we are using to validate our model.
+We don't train our model with this dataset.
+During training we use this dataset to see how our traning is processed.
+This usually is smaller than the **train dataset**.
+
+## test dataset
+
+To evaluate our model, we use test dataset.
+The size of test dataset is usually simillar to validation dataset.
+These are the unseen data that is not being used on the process of training.
+
+## show a batch of data with `matplotlib`
+
+So now we load our datasets, let's show them with matplotlib.
+There are multiple ways on doing that.
+One of the easiest way is to first cast our `tensorflow dataset`
+to a `numpy_iterator`.
+Then, use `next()` function to get one batch of it.
+After that, iterate through the batch and show the images with
+their labels.
+For example:
+
+```python
+one_batch = next(train_data.as_numpy_iterator())
+
+fig, axes = plt.subplots(3, 4)
+
+axes_ravel = axes.ravel()
+
+for i, (image, label) in enumerate(zip(one_batch[0], one_batch[1])):
+    axes_ravel[i].imshow(image.astype("uint8"))
+    axes_ravel[i].set_axis_off()
+    axes_ravel[i].set_title(f"{label}")
+
+```
 
