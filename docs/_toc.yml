@@ -2,4 +2,5 @@ format: jb-book
 root: intro
 chapters:
   - file: session_1
+  - file: session_2
   - file: datasets
