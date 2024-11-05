@@ -1,4 +1,4 @@
-# Session 2: Load data from colab to Kaggle
+# Session 2: Load data from Kaggle and make it to a dataset
 
 In this session we are going to get a dataset from
 colab, then extract it and learn how [`image_dataset_from_directory`](https://keras.io/api/data_loading/image/) works.
