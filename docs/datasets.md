@@ -13,7 +13,7 @@
 | [Animal Classification](https://www.kaggle.com/datasets/ayushv322/animal-classification)                                                             | 1                      | -                       | امیرعباس احمدی         |
 | [Rating OpenCV Emotion Images](https://www.kaggle.com/datasets/juniorbueno/rating-opencv-emotion-images)                                             | 1                      | train, validation       | عارفه فرقانی           |
 | [Skin Cancer (ISIC Images)](https://www.kaggle.com/datasets/rm1000/skin-cancer-isic-images)                                                          | 1                      | -                       | پوریا اعظمی            |
-| [Stanford Cars Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)                                                         | 0                      | train, test             | مینا ناصری             |
+| [Facial Emotion Recognition Image Dataset](https://www.kaggle.com/datasets/sujaykapadnis/emotion-recognition-dataset)                                | 1                      | -                       | مینا ناصری             |
 | [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)                                                  | 1                      | train, test, prediction | زهرا بابایی            |
 | [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits)                                                                                 | 1                      | train, test             | راضیه گلزاری           |
 | [Flower Classification](https://www.kaggle.com/datasets/marquis03/flower-classification)                                                             | 1                      | train, validation       | فهیمه رشیدی            |
@@ -25,4 +25,5 @@
 | [Flowers Multiclass 5 Image Classification](https://www.kaggle.com/datasets/sujaykapadnis/flowers-image-classification)                              | 1                      | train, validation, test | محمد صادق خادمیان      |
 | [Bone Fracture Multi-Region X-ray Data](https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data/data)                     | 1                      | train, validation, test | امیرمحمد همتیان        |
 | [Golden Foot Football players Image Dataset](https://www.kaggle.com/datasets/balabaskar/golden-foot-football-players-image-dataset)                  | 1                      | -                       | محمد دهقانیان          |
+| [Asian vs African Elephants](https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification)                               | 1                      | train, test             | مائده خورشیدی          |
 
