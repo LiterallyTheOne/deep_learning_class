@@ -27,4 +27,7 @@
 | [Golden Foot Football players Image Dataset](https://www.kaggle.com/datasets/balabaskar/golden-foot-football-players-image-dataset)                   | 1                      | -                       | محمد دهقانیان          |
 | [Asian vs African Elephants](https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification)                                | 1                      | train, test             | مائده خورشیدی          |
 | [Nike,Adidas Shoes for Image Classification Dataset](https://www.kaggle.com/datasets/ifeanyinneji/nike-adidas-shoes-for-image-classification-dataset) | 1                      | train, validation, test | عارفه قرمزی            |
+| [Butterfly & Moths Image Classification 100 species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)                            | 1                      | train, validation, test | سعید گرامی فر          |
+| [Jellyfish Image Dataset](https://www.kaggle.com/datasets/anshtanwar/jellyfish-types)                                                                 | 1                      | train, validation, test | عرفان صابری            |
+| ???? [Multi-Class Images for Weather Classification](https://www.kaggle.com/datasets/somesh24/multiclass-images-for-weather-classification)           | 0                      | -                       | محمد ملکوتی            |
 
