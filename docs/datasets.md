@@ -30,4 +30,5 @@
 | [Butterfly & Moths Image Classification 100 species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)                            | 1                      | train, validation, test | سعید گرامی فر          |
 | [Jellyfish Image Dataset](https://www.kaggle.com/datasets/anshtanwar/jellyfish-types)                                                                 | 1                      | train, validation, test | عرفان صابری            |
 | ???? [Multi-Class Images for Weather Classification](https://www.kaggle.com/datasets/somesh24/multiclass-images-for-weather-classification)           | 0                      | -                       | محمد ملکوتی            |
+| [Yoga Pose Classification](https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification)                                                  | 1                      | -                       | مهدی رهروی دستجردی     |
 
