@@ -195,3 +195,51 @@ new_valid = train_data.skip(new_train_data_size)
 
 In the example above we split 80 percent of our `train` dataset to `new_train`
 and the 20 perecnt remaining to `new_valid`.
+
+
+## Fit our model with having validation data
+
+To fit our model with validation data we can simply pass it to the `validation_data` argument:
+
+```python
+model.fit(new_train, epochs=10, validation_data=(new_valid))
+```
+
+
+## Transfer learning
+
+Transfer learning is a technic that we are using a pretrained model (called base model), on a new dataset with different purpose.
+We simply don't train the base model and we only train the layers that we manually add.
+To get prepared for the transfer learning:
+* Load the model without its classification layers
+* Put the training of the base model to `false`
+* Change the input layer according to our dataset input
+* Change the output layer according to our number of classes
+
+For example for `MobileNetV2`, we can load it like below:
+
+```python
+base_model = keras.applications.MobileNetV2(include_top=False)
+
+base_model.trainable = False
+```
+
+```{note}
+Different models available in `Keras`: https://keras.io/api/applications/
+```
+
+After loading it we can simply add it to our simple sequiential model that we made before as a layer:
+
+```python
+model = keras.Sequential(
+    [
+        keras.layers.Input(shape=(80, 190, 3)),
+        base_model,
+        keras.layers.Flatten(),
+        keras.layers.Dense(4, activation="softmax"),
+    ],
+)
+```
+
+Now we are ready to train our model.
+
