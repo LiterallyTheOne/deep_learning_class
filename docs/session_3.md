@@ -99,5 +99,67 @@ model = keras.Sequential(
 )
 ```
 
+## Flatten layer
 
+`Flatten layer` is simply flatten the output of the previous layer. 
+If we have `5` data which are with the shape of `(8, 9)`, the output
+of a `flatten layer` would be `5` data with the shape of `(72,)`.
+To use a flatten layer we can simply use the code below:
 
+```python
+flatten_layer = keras.layers.Flatten()
+```
+
+Since the output of our input layer is `(80, 90, 3)`, we should flatten
+this output in order to give it to our `dense layer`.
+So let's add our `flatten layer` to our sequential model like this.
+
+```python
+model = keras.Sequential(
+    [
+        keras.layers.Input(shape=(80, 190, 3)),
+        keras.layers.Flatten(),
+        keras.layers.Dense(4, activation="softmax"),
+    ],
+)
+```
+
+```{note}
+source: https://keras.io/api/layers/reshaping_layers/flatten/ 
+```
+
+## Fit the model
+
+To fit the model, firstly we should use the `compile` function to determine our
+`loss function`, `optimizer` and `metrics`.
+We will be discussing about them in the next session further more.
+But for now use the code below to compile the model.
+
+```python
+model.compile(
+    optimizer="adam",
+    loss=keras.losses.SparseCategoricalCrossentropy(),
+    metrics=["accuracy"],
+)
+```
+
+After compiling the model, we are ready to use the `fit` function.
+This function helps us to train our model.
+Some important arguments of this function are:
+
+* x: Input data
+* y: Target data (labels)
+* batch_size: number of data in each batch
+* epochs: number of iterations through all batches
+* validation_data: validation data
+* callbacks: list of callbacks (we are going to discuss about it more)
+
+To train our model with train data in 10 epochs we can use the code below:
+
+```python
+model.fit(train_data, epochs=10)
+```
+
+```{note}
+source: https://keras.io/api/models/model_training_apis/
+```
