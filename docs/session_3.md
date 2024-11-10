@@ -163,3 +163,35 @@ model.fit(train_data, epochs=10)
 ```{note}
 source: https://keras.io/api/models/model_training_apis/
 ```
+
+## Evaluate the model
+
+To evaluate our model on the test data we can use the code below:
+
+```python
+model.evaluate(test_data)
+```
+
+## Split a tensorflow dataset
+
+To split a tensorflow dataset we can use the technique of `take` and `skip`.
+Imagine we have a dataset containing 150 batches.
+If we want to get 100 data as our first part and 50 data for the second part we can use the code below:
+
+```python
+first_part = data.take(100)
+second_part = data.skip(100)
+```
+
+This technique is super practical when we want to split our `train` dataset to `train` and `validation`.
+We can use it like the below example:
+
+```python
+new_train_data_size = np.ceil(train_data.cardinality().numpy() * 0.8)
+
+new_train = train_data.take(new_train_data_size)
+new_valid = train_data.skip(new_train_data_size)
+```
+
+In the example above we split 80 percent of our `train` dataset to `new_train`
+and the 20 perecnt remaining to `new_valid`.
