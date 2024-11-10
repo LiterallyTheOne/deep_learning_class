@@ -76,10 +76,9 @@ dense_layer = keras.layers.Dense(10, activation="relu")
 source: https://keras.io/api/layers/core_layers/dense/ 
 ```
 
-
 ## Output layer
 
-`Output layer` is the layer that we using to generate
+`Output layer` is the layer that we are using to generate
 our output respect to our problem.
 In **classification** problems we mostly use
 `Dense layer` with `softmax` as its activation.
@@ -88,5 +87,17 @@ For example, if we have 4 classes we can define an output layer like below
 ```python
 keras.layers.Dense(4, activation="softmax"),
 ```
+
+Let's add it to our sequential model:
+
+```python
+model = keras.Sequential(
+    [
+        keras.layers.Input(shape=(80, 190, 3)),
+        keras.layers.Dense(4, activation="softmax"),
+    ],
+)
+```
+
 
 
