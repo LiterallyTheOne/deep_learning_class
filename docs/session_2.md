@@ -87,6 +87,8 @@ Some important functions are:
 * `batch()`
 * `rebatch()`
 * `take()`
+* `skip()`
+* `cardinality()`
 
 ```{note}
 https://www.tensorflow.org/api_docs/python/tf/data/Dataset
