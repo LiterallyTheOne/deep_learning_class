@@ -2,6 +2,7 @@
 
 | dataset                                                                                                                                               | image folder structure | separation              | student name           |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ----------------------- | ---------------------- |
+| [Tom and Jerry Image classification](https://www.kaggle.com/datasets/balabaskar/tom-and-jerry-image-classification)                                   | 1                      | -                       | رامین زارع بیدکی       |
 | [Animal Image Classification Dataset](https://www.kaggle.com/datasets/borhanitrash/animal-image-classification-dataset)                               | 1                      | -                       | مطهره طالبیان          |
 | [Sports balls - multiclass image classification](https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification)        | 1                      | train, test             | امیرحسین رحیمیان       |
 | ?[RSNA-MICCAI Brain Tumor Radiogenomic Classification](https://www.kaggle.com/competitions/rsna-miccai-brain-tumor-radiogenomic-classification/data)  | 1                      | train, test             | سید عماد الدین مدرسی   |
@@ -29,6 +30,6 @@
 | [Nike,Adidas Shoes for Image Classification Dataset](https://www.kaggle.com/datasets/ifeanyinneji/nike-adidas-shoes-for-image-classification-dataset) | 1                      | train, validation, test | عارفه قرمزی            |
 | [Butterfly & Moths Image Classification 100 species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)                            | 1                      | train, validation, test | سعید گرامی فر          |
 | [Jellyfish Image Dataset](https://www.kaggle.com/datasets/anshtanwar/jellyfish-types)                                                                 | 1                      | train, validation, test | عرفان صابری            |
-| ???? [Multi-Class Images for Weather Classification](https://www.kaggle.com/datasets/somesh24/multiclass-images-for-weather-classification)           | 0                      | -                       | محمد ملکوتی            |
+| [Multi-class Weather Dataset](https://www.kaggle.com/datasets/pratik2901/multiclass-weather-dataset)                                                  | 1                      | -                       | محمد ملکوتی            |
 | [Yoga Pose Classification](https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification)                                                  | 1                      | -                       | مهدی رهروی دستجردی     |
 
