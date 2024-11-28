@@ -33,4 +33,5 @@
 | [Multi-class Weather Dataset](https://www.kaggle.com/datasets/pratik2901/multiclass-weather-dataset)                                                  | 1                      | -                       | 4                 | محمد ملکوتی            |
 | [Yoga Pose Classification](https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification)                                                  | 1                      | -                       | 5                 | مهدی رهروی دستجردی     |
 | [Nike, Adidas and Converse Shoes Images](https://www.kaggle.com/datasets/die9origephit/nike-adidas-and-converse-imaged)                               | 1                      | train, test             | 3                 | سيدمحمد خاني سانيج     |
+| [Mammals Image Classification Dataset (45 Animals)](https://www.kaggle.com/datasets/asaniczka/mammals-image-classification-dataset-45-animals)        | 1                      | -                       | 45                | آرین رحمانی            |
 
