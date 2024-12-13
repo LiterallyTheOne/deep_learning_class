@@ -1,3 +1,5 @@
 /docs/_build
 
 logs*/
+
+api_keys/*
